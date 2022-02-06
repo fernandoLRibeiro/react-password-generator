@@ -1,0 +1,23 @@
+.slider-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.25em;
+}
+
+.slider {
+  width: 100%;
+  outline: 0;
+  height: 0.25em;
+  border-radius: 0;
+  margin: 0;
+}
+
+.bubble {
+  background-color: #3a3a3a;
+  font-family: monospace;
+  color: #cfcfcf;
+  padding: 0.5em;
+  border-radius: 5px;
+}
