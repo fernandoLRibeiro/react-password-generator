@@ -5,8 +5,8 @@
   justify-content: center;
   width: 40%;
   padding: 3em;
-  border: 1px solid #6a6a6a;
-  color: #1d1d1d;
+  background-color: #0b2c5b;
+  color: #eeeeee;
   border-radius: 5px;
   margin: 12em auto;
   gap: 2em;
@@ -17,7 +17,6 @@
   align-items: center;
   justify-content: space-around;
   gap: 0.5em;
-
   width: 80%;
 }
 
@@ -25,6 +24,19 @@
   font-family: monospace;
   cursor: pointer;
   padding: 0.5em;
+  outline: none;
+  background-color: #03124f;
+  border: 1px solid #8da1b9;
+  border-radius: 5px;
+  color: #eeeeee;
+}
+
+.button:hover {
+  background-color: #0f3c80;
+}
+
+.button:active {
+  background-color: #3891a6;
 }
 
 .password-button-container {
@@ -35,4 +47,31 @@
 
 h3 {
   margin: none;
+  font-weight: 300;
+  font-size: 1.25em;
+}
+
+@media screen and (max-width: 1024px) {
+  .box {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: 60%;
+  }
+  .password-button-container {
+    width: 100%;
+  }
+  .controllers {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .box {
+    width: 75%;
+  }
 }
