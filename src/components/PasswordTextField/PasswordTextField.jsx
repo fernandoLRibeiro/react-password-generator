@@ -14,6 +14,7 @@ const PasswordTextField = ({ password, copied, setCopied }) => {
         autoComplete="off"
         value={password}
         type="text"
+        readOnly
       />
       <div className="password-textfield-icon-container">
         {copied ? (
