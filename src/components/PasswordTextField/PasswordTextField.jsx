@@ -18,7 +18,7 @@ const PasswordTextField = ({ password, copied, setCopied }) => {
       <div className="password-textfield-icon-container">
         {copied ? (
           <div className="password-textfield-icon-div checked">
-            <BsClipboardCheck size="2em" color="white" />
+            <BsClipboardCheck size="1.5em" color="white" />
           </div>
         ) : (
           <div className="password-textfield-icon-div">
@@ -27,7 +27,7 @@ const PasswordTextField = ({ password, copied, setCopied }) => {
                 navigator.clipboard.writeText(password);
                 setCopied(true);
               }}
-              size="2em"
+              size="1.5em"
             />
           </div>
         )}
