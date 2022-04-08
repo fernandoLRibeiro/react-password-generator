@@ -1,4 +1,20 @@
-A very simple password generator made with React.
+# Password Generator Web App
 
-codesandbox: https://codesandbox.io/s/keen-hamilton-x980s7
-live demo: https://bejewelled-stardust-177527.netlify.app/
+This project is a very simple password generator web app built with React.
+
+## Overview
+
+### Screenshot
+
+![](./screenshot.png)
+
+### Links
+
+- [Codesandbox](https://codesandbox.io/s/keen-hamilton-x980s7)
+- [Live Site URL](https://bejewelled-stardust-177527.netlify.app/)
+
+### Built with
+
+- [React](https://reactjs.org/) - JS library
+- CSS
+- Flexbox
